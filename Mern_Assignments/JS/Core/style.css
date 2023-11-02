@@ -1,0 +1,25 @@
+#body{
+    margin: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#hover-this{
+    cursor: pointer;
+}
+#hover-this:hover{
+    font-size: 30px;
+    color: chartreuse;
+}
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10%;
+}
+button:hover{
+    color:rgb(1, 6, 15);
+    background-color: chartreuse;
+}
