@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const Form = () => {
     //The useState hook is used to manage the form data as a state start with empty inputs.
 
-  const [formData, setFormData] = useState({ // object
-    firstName: '',
+  const [formData, setFormData] = useState({ // object  
+    firstName: '',  // name : value 
     lastName: '',
     email: '',
     password: '',
