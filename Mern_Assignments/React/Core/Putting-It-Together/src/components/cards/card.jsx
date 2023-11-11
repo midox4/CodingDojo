@@ -8,10 +8,13 @@ const Card = (props) => {
   const addAge = ()=>{
     setAge(age +1)
   }
+  const minusAge= ()=>{
+    setAge(age -1)
+  }
     return (
         <div className="person-card">
           <h2>{props.firstName} {props.lastName}</h2>
-          <p>Age: {age}</p>
+          <p>Age: {age}   <button  onClick={minusAge}>-</button></p>
           <p>Hair Color: {props.hairColor}</p>
           <button  onClick={addAge} >Brithday button for:  {props.firstName} {props.lastName}</button>
         </div>
