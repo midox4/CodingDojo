@@ -1,0 +1,28 @@
+<div>
+<div className="App">
+<PersonCard
+  firstName="John"
+  lastName="Doe"
+  age={30}
+  hairColor="Black"
+/>
+<PersonCard
+  firstName="Jane"
+  lastName="Smith"
+  age={25}
+  hairColor="Blonde"
+/>
+<PersonCard
+  firstName="Alice"
+  lastName="Johnson"
+  age={28}
+  hairColor="Brown"
+/>
+<PersonCard
+  firstName="Bob"
+  lastName="Williams"
+  age={35}
+  hairColor="Red"
+/>
+</div>
+</div>
