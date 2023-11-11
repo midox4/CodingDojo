@@ -1,0 +1,52 @@
+.App {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  display: block;
+  flex-direction: flex-end;
+}
+section {
+  display: block;
+  font-size: 50px;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  display: block;
+  margin: auto;
+}
+h1 {
+  margin-top: 40px;
+}
+.person-card{
+
+display: flex;
+color: green;
+flex-direction: column;
+align-items: center;
+}
+button{
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
