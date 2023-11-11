@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../../App.css'
 
 const Form = () => {
     //The useState hook is used to manage the form data as a state start with empty inputs.
