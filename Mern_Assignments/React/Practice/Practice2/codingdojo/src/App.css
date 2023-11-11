@@ -21,6 +21,8 @@ section{
   pointer-events: none;
   border-radius: 50px;
   margin-top: 20px;
+  display: block;
+  margin: auto;
 }
 h1{
   margin-top: 40px;

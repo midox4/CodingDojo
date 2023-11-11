@@ -1,6 +1,5 @@
 import logo from "./logo.png";
 import "./App.css";
-import PersonCard from "./components/cards/card"
 
 function App() {
   return (
@@ -19,35 +18,8 @@ function App() {
           <li>Learn express</li>
 
         </ul>
-      </section> <br/>
-      <div>
-      <div className="App">
-      <PersonCard
-        firstName="John"
-        lastName="Doe"
-        age={30}
-        hairColor="Black"
-      />
-      <PersonCard
-        firstName="Jane"
-        lastName="Smith"
-        age={25}
-        hairColor="Blonde"
-      />
-      <PersonCard
-        firstName="Alice"
-        lastName="Johnson"
-        age={28}
-        hairColor="Brown"
-      />
-      <PersonCard
-        firstName="Bob"
-        lastName="Williams"
-        age={35}
-        hairColor="Red"
-      />
-    </div>
-      </div>
+      </section> 
+
 
     </div>
   );
