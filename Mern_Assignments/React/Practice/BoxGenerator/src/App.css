@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  padding-top: 130px;
+}
+form{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: auto;
+}
