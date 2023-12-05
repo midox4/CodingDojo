@@ -1,0 +1,17 @@
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+list-style: none;
+text-decoration: none;
+font-weight: 700;
+
+}
+ul:hover{
+  color: darkgreen;
+}
+ul:visited{
+  color: hotpink;
+
+}
+
