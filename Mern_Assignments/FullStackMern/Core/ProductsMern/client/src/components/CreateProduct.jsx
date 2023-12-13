@@ -1,8 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
-import toast, { Toaster } from 'react-hot-toast';
 
 
 
@@ -27,16 +24,11 @@ const CreateProduct = (props) => {
         setTitle("");
         setPrice("");
         setDescription("");
-        toast.success("Product created successfully",{
-          icon: '👏',
-
-        });
 
         
       })
       .catch((err) => {
         console.log(err);
-        toast.error("Error creating product");
 
       });
   };
@@ -90,8 +82,6 @@ const CreateProduct = (props) => {
           </div>
 
         </form>
-                {/* Toast Container for displaying notifications */}
-                <Toaster />
 
       </div>
 
